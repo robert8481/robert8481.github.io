@@ -933,14 +933,22 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #fff; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
     margin: 0;
     padding: 0;
+    color: #ccc;
  }
+footer .credits {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #ccc;
+}
 footer .copyright li {
     display: inline-block;
     margin: 0;

@@ -236,7 +236,7 @@ ul#nav li.current a { color: #7A7A7A; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: rgb(230, 230, 230);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #7A7A7A; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #fff;
+   border-bottom: 3px solid #313131;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -264,7 +264,7 @@ ul#nav li.current a { color: #7A7A7A; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.815);
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -279,131 +279,6 @@ ul#nav li.current a { color: #7A7A7A; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
-}
-
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
-  	margin-top: 36px;
-   list-style: none;
-}
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
-}
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
-}
-
-.photoshop {
-  	width: 80%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 80%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 70%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
